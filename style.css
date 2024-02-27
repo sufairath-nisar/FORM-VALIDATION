@@ -1,0 +1,733 @@
+/**********INDEX***********/
+.nav-cls-bgclr{
+    background-color:  #2874a6;
+}
+
+.nav-item  :hover {
+    color: #ffffff;
+}
+
+.w-65{
+width: 65%;
+cursor: pointer;
+}
+
+
+
+/****************************/
+ /* The side navigation menu */
+ .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #123456; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+
+  /********INDEX****************/
+  .h-400{
+    max-height: 490px;
+  }
+
+  .carousel-dark .carousel-caption{
+    color: #ffffff;
+  }
+
+  .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    filter: initial;
+  }
+
+  .carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #ffffff;
+  }
+
+  .p-5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .font-clr-cls{
+    color:  #1a5276 ;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container-cls:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-cls:hover .middle {
+    opacity: 1;
+  }
+
+.container-cls{
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+}  
+
+#theyyam:hover{
+  background-color:   #e74c3c  ;
+}
+  
+#yoga:hover{
+ background-color: #5499c7 ; 
+}
+ 
+#ecotourism:hover{
+  background-color:  #1abc9c;
+}
+
+#responsible:hover{
+  background-color: #e67e22;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  /* right: 20px; */
+  font-weight: 600;
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.btn-info{
+  color: #ffffff;
+  border-radius: 0%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #1a5276;
+  border: none;
+}
+
+.btn-info:hover{
+  background-color:  #5499c7 ;
+}
+
+.destination-sec{
+  background-color:  #ebf5fb ;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.p-40{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.things-to-do-sec{
+  background: url(./img/things-to-do-backgrnd-img.jpg) no-repeat  center fixed;
+}
+
+.container .overlay-no-change:hover {
+  height: 100% !important;
+}
+
+.overlay-no-change{
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */ 
+  width: 100%;
+  transition: .5s ease;
+  cursor: pointer;
+  height: 0;
+}
+
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  color: #ffffff;
+}
+
+.tb-backgrnd {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(206, 49, 49);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-cls:hover .overlay-things {
+  height: 100%;
+}
+/* {
+  opacity: 0.3;
+  background-color: rgba(247, 237, 237, 0.5);
+  transition: .5s ease;
+  /* overflow: hidden; */
+
+
+.overlay-things{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(7, 7, 7, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+/*     FOOTER         */
+.btn-primary{
+  background-color: #1a5276;
+  border-color: #1a5276;
+}
+
+/*****************************EXPERIENCE.HTML************************/
+.back-clr-cls{
+  background-color: #1a5276;
+}
+
+.ex-sec-p{
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+footer{
+  background-color:  #ccd1d1 ;
+}
+
+/*****************DESTINATION****************************/
+.des-sec-p{
+  padding-top: 7%;
+  padding-bottom: 4%;
+}
+
+.h-400{
+  max-height: 400px;
+}
+
+/****************BACKWATERS************************/
+.card-body{
+  background-color:  #d4e6f1 ;
+  color:    #3498db  ;
+  font-size: 18px;
+}
+
+.card{
+  border: none;
+}
+
+.h-300{
+  max-height: 350px;
+}
+
+.f-16{
+  font-size: 16px;
+}
+
+.card-img-top{
+  border-radius: 0;
+}
+
+/********************THINGS TO DO *************************/
+.h-450{
+  height: 420px;
+}
+
+.things-rt-banner-cls{
+  background: url(./img/things-banner2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ayurveda-banner-cls{
+  background: url(./img/things-banner4.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.walk-banner-cls{
+  background: url(./img/things-walkthrough-banner1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.scuba-banner-cls{
+  background: url(./img/scuba-diving-foto-banner.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hiking-banner-cls{
+  background: url(./img/hiking-banner1.webp);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/***********GALLERY*******************/
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #1a5276;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo-gallery{
+  opacity: 0.6;
+}
+
+.demo-gallery:hover{
+  opacity: 1;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* img {
+  vertical-align: middle;
+} */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev-g,
+.next-g {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-g {
+  right: 1%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-g:hover,
+.next-g:hover {
+  background-color: #1a5276;
+}
+
+.gallery-sec2{
+  background-color: #2874a6;
+}
+
+.gallery-sec-p{
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+/*******DESTINATION*********/
+.des-back-banner{
+  /* background: url("./img/backwbanner5.jpg"); */
+  background-image: url("./img/backwbanner5.jpg");
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-image: url(./img/backwbanner5.jpg) no-repeat  center fixed; */
+
+}
+
+.des-beach-banner{
+  background-image: url(./img/beachbanner1.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-fort-banner{
+  background-image: url(./img/monumentbanner2.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-kalam-banner{
+  background-image: url(./img/kalamandalambanner.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-monument-banner{
+  background-image: url(./img/monumentbanner1.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-museum-banner{
+  background-image: url(./img/museumbanner2.avif);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-picnic-banner{
+  background-image: url(./img/picnicbanner.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-pilgrim-banner{
+  background-image: url(./img/pilgrimbanner.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-vylopili-banner{
+  background-image: url(./img/vylopppillibanner1.webp);
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-water-banner{
+  background-image: url(./img/waterbanner2.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-wild-banner{
+  background-image: url(./img/wildlifebanner1.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-hills-banner{
+  background-image: url(./img/hills-banner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.des-interest-banner{
+  background-image: url(./img/interest-banner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.color-text{
+  color: #1a5276;
+}
+
+.kasargode-sec-p{
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.ksgd-sec{
+  background-color:  #e5e7e9 ;
+}
+
+.kasargode-banner-cls{
+  background-image: url(./img/kasargodebanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.kannur-banner-cls{
+  background-image: url(./img/kannurbanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wayanad-banner-cls{
+  background-image: url(./img/wayanadbanner1.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.kozhikode-banner-cls{
+  background-image: url(./img/kozhikodebanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.malappuram-banner-cls{
+  background-image: url(./img/malappurambanner.jpg);
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.palakkad-banner-cls{
+  background-image: url(./img/palakkadbanner.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.thrissur-banner-cls{
+  background-image: url(./img/thrissurbanner1.jpg);
+  background-color: #cccccc;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ernakulam-banner-cls{
+  background-image: url(./img/ernakulambanner.webp);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.idukki-banner-cls{
+  background-image: url(./img/idukkibanner.webp);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.kottayam-banner-cls{
+  background-image: url(./img/kottayambanner.webp);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.alappuzha-banner-cls{
+  background-image: url(./img/alappuzhabanner.jpg);
+  background-color: #cccccc;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.pathanamthitta-banner-cls{
+  background-image: url(./img/pathanamthittabanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.kollam-banner-cls{
+  background-image: url(./img/kollambanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.thiruvananthapuram-banner-cls{
+  background-image: url(./img/thiruvananthapurambanner.jpg);
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
